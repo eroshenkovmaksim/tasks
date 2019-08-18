@@ -1,9 +1,9 @@
-package main.java.eroshenkov.product;
+package main.java.eroshenkov.multiplication;
 
 import java.util.Arrays;
 import java.util.Random;
 
-public class Product {
+public class Multiplication {
   public static void main(String[] args) {
     int n = 5;
     int[] inputArray = new int[n];
