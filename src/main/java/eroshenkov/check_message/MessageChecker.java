@@ -1,4 +1,4 @@
-package main.java.eroshenkov.check_message;
+package eroshenkov.check_message;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -19,8 +19,7 @@ public class MessageChecker {
       if (!wordsAndItsAmount.containsKey(word)) {
         return false;
       }
-      int i = wordsAndItsAmount.get(word);
-      if (i == 1) {
+      if (wordsAndItsAmount.get(word) == 1) {
         wordsAndItsAmount.remove(word);
         continue;
       }
